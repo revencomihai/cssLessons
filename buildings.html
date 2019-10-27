@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Inline Elements Example - Airport</title>
+  <style>
+    #square{
+      width: 600px;
+      height: 600px;
+      border: 10px solid #999;
+      padding: 10px;
+    }
+    #park{
+      width: 400px;
+      height: 400px;
+      background-color: lightgreen;
+      /* ??? */
+      float:left;
+      border-right: 20px solid green;
+      border-bottom: 20px solid green;
+    }
+    #building-1{
+      width: 180px;
+      height: 400px;
+      background-color: lightblue;
+      margin: 0 0 0 420px;
+      border-bottom: 20px solid green;
+      /* ??? */
+    }
+    #building-2{
+      width: 400px;
+      height: 180px;
+      background-color: lightblue;
+      float: left;
+
+      /* ??? */
+      border-right: 20px solid green;
+    }
+    #market{
+      background-color: lightgrey;
+      float:right;
+      
+      /*  ???  */
+    }
+    #market .monument{
+      font-size: 50px;
+      /* ??? */
+      
+      padding: 55px 65px ;
+
+      
+
+    }
+    #park .tree{
+      font-size: 50px;
+      color: green;
+      /* ??? */
+      float:left;
+      text-align: center;
+      margin: 35px;
+      padding-top: 50px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <section id="square">
+
+    <div id="park">
+      <div class="tree">&#5848;</div>
+      <div class="tree">&#5848;</div>
+      <div class="tree">&#5848;</div>
+      <div class="tree">&#5848;</div>
+      <div class="tree">&#5848;</div>
+      <div class="tree">&#5848;</div>
+      <div class="tree">&#5848;</div>
+      <div class="tree">&#5848;</div>
+    </div>
+    <div id="building-1"></div>
+    <div id="building-2"></div>
+    <div id="market">
+      <div class="monument">
+        &#9816;
+      </div>
+    </div>
+
+  </section>
+
+
+</body>
+</html>
